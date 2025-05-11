@@ -1,26 +1,7 @@
-👥 Customer Data Processing with Python
+🚨 Emergency Vehicle Classification with CNN
 
 📌 Project Overview
-This project focuses on cleaning and preparing customer data for analysis using Python. It demonstrates essential data preprocessing steps that are critical in any data science workflow, especially when dealing with real-world, messy datasets.
+This project uses Convolutional Neural Networks (CNNs) to classify images of emergency and non-emergency vehicles. A series of CNN models were trained on a labeled image dataset to distinguish between classes (0 = non-emergency, 1 = emergency). The models were evaluated using accuracy, precision, recall, F1-score, and confusion matrices.
 
-🧹 Key Processing Tasks
-✅ Handled missing values across key columns
-
-🔄 Standardized categorical variables for consistency
-
-🔢 Converted data types to ensure compatibility and accuracy
-
-📊 Explored the dataset to understand customer patterns and structure
-
-🛠️ Tools & Libraries
-
-- Python 🐍
-
-- Pandas 🧮
-
-- NumPy 🔢
-
-- Jupyter Notebook 📓
-
-🎯 Purpose
-Efficiently cleaning and preparing customer data enables deeper analysis and model building for customer segmentation, behavior prediction, or business intelligence applications.
+🔍 Best Performing Model:
+Model 6 achieved the highest overall performance with an accuracy of 80%, showing improved balance in detecting both emergency and non-emergency vehicles after applying batch normalization and reducing fully connected layers.
